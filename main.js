@@ -14,7 +14,7 @@ function generateScatterplot() {
           height = 500 - margin.top - margin.bottom;
     
     // Legend Position
-    const legendX = width - 100;
+    const legendX = width - 150;
     const legendY = 300;
     
     const svg = d3.select(".chart").append("svg")
